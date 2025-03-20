@@ -1,0 +1,22 @@
+{
+  "name": "yourname/acme-basket",
+  "description": "Acme Widget Co Basket Challenge",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
